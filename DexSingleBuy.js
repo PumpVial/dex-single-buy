@@ -17,7 +17,7 @@ const payload = {
 //////////////////////////////// END ////////////////////////////////////////
 
 const buyDexSingle = async () => {
-  const URL = "https://pumpvial.com/api/dex-single-buy";
+  const URL = "https://api.pumpvial.com/dex-single-buy";
 
   try {
     const request = await axios.post(URL, payload, {
